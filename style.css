@@ -97,8 +97,6 @@ body{
     margin: 100px 10px 10px 10px;
     /* border: 2px solid black; */
     padding: 40px;
-    
- 
 }
 .hero h1{
     text-align: center;
@@ -432,6 +430,9 @@ body{
 
 @media screen and (max-width:670px){
     /*Hero Responsive*/
+    .hero{
+        padding: 50px 10px 10px 10px;
+    }
     .hero__banner img{
         width: 100%;
     }
@@ -475,8 +476,6 @@ body{
  }
 
 @media screen and (max-width:600px){
-
-   
     .footer__one{
         width: 100%;
         font-size: 14px;
