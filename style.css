@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+}
+/*
+.navbar{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px  10px;
+}
+.navbar__logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar img{
+    height: 50px;
+    width: 50px;
+    background-color: #38e338;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.navbar__content{
+    display: flex;
+    gap: 10px;
+}
+.navbar button{
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}*/
+
+
+/*nav bar -boostrap*/
+.navbar{
+    z-index: 1;
+    background-color: white;
+    border-bottom: 1px solid black;
+   
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.navbar-brand{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.signin-button{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+.signin-button:hover{
+    background-color: #34E0A1;
+    color: black;
+}
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+}
+.nav-link{
+    color: black;
+    font-weight: bold;
+}
+.nav-link:hover, .nav-link:active{
+    background-color: #34E0A1;
+    border-radius: 20px;
+    color: black; 
+}
+
+/* Hero */
+.hero{
+    padding: 10px;
+    margin: 100px 10px 10px 10px;
+    /* border: 2px solid black; */
+    padding: 40px;
+    
+ 
+}
+.hero h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+/*hero options*/
+
+.hero__options{
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+
+.hero__options p:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.hero__options img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+
+.hero__search{
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+   align-self: center;
+   justify-content: space-between;
+   padding: 10px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hero__search input{
+    padding: 5px;
+    border: none;
+    width: 90%;
+}
+.hero__search input:focus{
+  outline: none;
+}
+.hero__banner{
+    /* border: 2px solid black; */
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.hero__banner img{
+    width: 100%;
+    height: auto;
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.hero__search button{
+    padding: 10px 20px;
+    background-color:#34E0A1;
+    border: none;
+    border-radius: 30px;
+}
+/* Adventure */
+.adventure{
+    /* border: 1px solid #3e5bff; */
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.advent-content{
+    width: 100%;
+    margin: 10px;
+    /* border: 1px solid black; */
+}
+.adventure h2{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    font-weight: bold;
+}
+.adventure-card img{
+    border-radius: 10px;
+}
+
+/*Recommended*/
+.recommend{
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.recommend-content{
+    width: 100%;
+    margin: 10px;
+}
+
+.recommend-card h2{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    font-weight: bold;
+}
+
+.recommend-card p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Sponser 
+---------------------------------------------------------*/
+
+.sponser{
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content:  space-around;
+    flex-wrap: wrap;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+.sponser img{
+    width: 60%;
+    height: 45%;
+}
+.sponser-content img{
+    height: 60px;
+    width: 60px;
+}
+.sponser-content{
+    align-self: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.sponser-content button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+.sponser-content button:hover{
+    background-color: #34E0A1;
+    color: black;
+}
+
+
+/* Rentals 
+-------------------------------------------------------*/
+.rentals{
+    /* border: 2px solid yellowgreen; */
+    padding: 10px;
+    margin: 20px;
+    /* display: flex;
+    gap: 10px; */
+    
+}
+.rental-content{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+.rental-block{
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.rental-card img{
+    height: 300px;
+    width: 300px;
+}
+
+/* footer 
+-------------------------------------------------------*/
+.footer{
+    padding: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.footer__one{
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+
+}
+.footer__two{
+    padding: 10px;
+    text-align: center;
+}
+
+.footer__two img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+
+/*--------Responsive-------------------*/
+
+@media screen and (max-width: 800px){
+ 
+   .advent-card{
+    flex-basis: 40%;
+   }
+   .recommend-card{
+    flex-basis: 40%;
+   }
+   .hero__options{
+    display: none;
+   }
+
+   /* animations */
+    .advent-card:nth-child(even){
+        animation-name: movement;
+        animation-duration: 3s;
+    }
+    @keyframes movement{
+        0%{
+            margin-right: 30px;
+        }
+        100%{
+            margin-right: 0px;
+        }
+    }
+    /* animations */
+    .recommend-card:nth-child(even){
+        animation-name: movement1;
+        animation-duration: 3s;
+    }
+    @keyframes movement1{
+        0%{
+            margin-right: 30px;
+        }
+        100%{
+            margin-right: 0px;
+        }
+    }
+}
+
+@media screen and (max-width:800px){
+
+     /*Sponser Responsive*/
+     .sponser{
+        padding: 10px 20px;
+    }
+    .sponser img{
+        width: 100%;
+    }
+
+    .sponser-content{
+        margin-top: 10px;
+        padding: 20px;
+    }
+    .sponser-content img{
+        height: 40px;
+        width: 40px;
+    }
+    .sponser-content h1{
+        font-size: 20px;
+    }
+    .sponser-content p{
+        font-size: 14px;
+    }
+    .sponser-content button{
+        font-size: 14px;
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+    }
+}
+
+@media screen and (max-width:700px){
+    /*Rentals Responsive */
+    .rentals{
+        margin: 0;
+        padding: 30px;
+    }
+    .rental-content{
+        text-align: center;
+        font-size: 12px;
+      
+    }
+    .rental-block{
+        padding-bottom: 20px;
+        /* border: 2px solid orange */
+    }
+    .rental-card{
+        width: 40%;
+    }
+    .rental-card img{
+        width: 100%;
+        height: 70%;
+    }
+    .rental-card h3{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .rental-card p{
+        font-size: 12px;
+        line-height: 0.5;
+    }
+}
+
+@media screen and (max-width:670px){
+    /*Hero Responsive*/
+    .hero__banner img{
+        width: 100%;
+    }
+    /*adventure responsive*/
+    .advent-content, .recommend-content{
+     text-align: center;
+     font-size: 12px;
+    }
+    .advent-card h2{
+        text-align: center;
+        position: static;
+        color: black;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .advent-card{
+        /* border:2px solid black; */
+        width: 40%;
+    }
+    .advent-card img{
+        width: 100%;
+        height: auto;
+    }
+    /*Recommended Responsive*/
+    .recommend-card h2{
+        text-align: center;
+        position: static;
+        color: black;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .recommend-card img{
+        width: 100%;
+    }
+    .recommend-card p{
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+ }
+
+@media screen and (max-width:600px){
+
+   
+    .footer__one{
+        width: 100%;
+        font-size: 14px;
+        
+    }
+    .footer__two{
+        /* border: 1px solid white; */
+        margin-left: 38px;
+    }
+    .footer__two p{
+        text-align: center;
+    }
+   
+}
+
+
+@media screen and (max-width: 500px){
+   .hero{
+    font-size: 10px;
+   }
+   .hero__search{
+    padding: 8px;
+   }
+   .hero__search button{
+    padding: 10px 20px;
+    font-size: 10px;
+   }
+   .hero h1{
+    font-size: 30px;
+   }
+}
